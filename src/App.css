@@ -1,0 +1,26 @@
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+}
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+  padding-top:70px;
+  margin: 0;
+  background-color: #ffffff;
+  min-height: 100%;
+  box-sizing: inherit;
+}
+@media screen and (max-width:769px){
+  body {
+   padding-top: 40px;
+   position: relative;
+ 
+  }
+};

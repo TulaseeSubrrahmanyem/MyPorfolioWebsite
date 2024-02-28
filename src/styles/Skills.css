@@ -1,0 +1,14 @@
+.skills-timeline{
+    background-color: #FFF;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    margin-top: 20px;
+}
+.skills-timeline h1{
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-top: 20px;
+}

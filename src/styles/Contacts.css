@@ -1,0 +1,153 @@
+/* Shared styles for the contact section */
+.contact-section {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  width: 75%;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+/* Styles for contact details */
+.contact-details {
+  width:30%;
+  background-color: blue;
+  padding: 20px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contact-details h2 {
+  font-size: 1.4em;
+  font-weight: 550;
+  margin: 5px;
+  color: #fff;
+}
+
+.contact-details p {
+  margin-top: 20px;
+  margin-left: 5px;
+  font-size: 1em;
+  color: #fff;
+}
+
+/* Styles for contact form */
+.contact-form {
+  width: 70%;
+  margin: 30px;
+  
+}
+
+.contact-form h2 {
+  font-size: 1.4em;
+  font-weight: 550;
+  margin: 5px;
+}
+/* 
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+ 
+} */
+
+.contact-form label {
+  margin-bottom: 5px;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.text-message {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #d4d1d1;
+  border-radius: 4px;
+  outline: none;
+ 
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'] {
+  width:23vw;
+}
+
+.text-message {
+  width: 95%;
+  min-height: 150px;
+  margin: 10px;
+}
+
+/* Styles for the send button */
+.sendButtonClass {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 550;
+  width: 100px;
+  margin:10px;
+}
+
+.sendButtonClass:hover {
+  background-color: #0056b3;
+}
+.toastContainer {
+  
+  top: 10% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .contact-section {
+   width: 100%;
+  }
+.contactBg{
+  padding: 20px;
+}
+.contact-form {
+  width: 100%;
+  margin: 20px;
+  
+}
+  .formData {
+    width: 90%;
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .contact-details {
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
+
+  .contact-form input[type='text'],
+  .contact-form input[type='email'],
+  .text-message {
+    width: 100%;
+  }
+
+  .text-message {
+    width: 95%;
+    min-height: 120px;
+  }
+  /* Adjust the individual toast size */
+  .Toastify__toast {
+    /* Modify the individual toast styles */
+    min-height: 40px; /* Set a smaller height for individual toasts */
+    padding: 10px;
+    width: 300px;
+    top: 10% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  }
+}
