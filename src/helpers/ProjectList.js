@@ -16,11 +16,11 @@ export const ProjectList = [
     gitLink:"https://github.com/TulasiSubrahmanyam/TravelBookingApp",
   },
   {
-    name: "AmwayEcommerce Website",
+    name: "Ecommerce Website",
     image: Proj2,
     description:"This e-commerce project implements functionalities such as user authentication, cart management, and intuitive interactions. Authenticated users can manage quantities, remove items, and clear the entire cart, while unauthenticated users are redirected to the login route when accessing the Cart page. The Cart Route displays total amounts and item counts, ensuring a comprehensive view. The CartContext object facilitates cart management with various methods. Overall, the project aims to create a user-friendly platform for efficient and secure online shopping experiences.",
     skills: "ReactJS, CSS, Bootstrap, Routing, REST API Calls, Local Storage, JWTToken, Authorization, Authentication",
-    link:"https://amwayecommerce.netlify.app",
+    link:"https://sss-ecommerce.netlify.app",
     login:"rahul,rahul@2021",
     gitLink:"https://github.com/TulasiSubrahmanyam/EcommerceWebsite"
   },
