@@ -1,5 +1,5 @@
 import Proj1 from "../assets/TraveBookingProject.png";
-import Proj2 from "../assets/AmwayEcommerceApp.png";
+import Proj2 from "../assets/Ecommerce.png";
 import Proj3 from "../assets/JobbyApp.png";
 import Proj4 from "../assets/AppStore.png";
 // import Proj5 from "../assets/proj5.jpg";
