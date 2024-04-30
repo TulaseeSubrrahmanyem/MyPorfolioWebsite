@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
-import profileImage from "../assets/profile2.png";
+import profileImage from "../assets/profile.png";
 import "../styles/Home.css";
 import {Link} from 'react-router-dom'
 import {Typewriter} from 'react-simple-typewriter';
